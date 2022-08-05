@@ -1,0 +1,138 @@
+.punkdeal__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.punkdeal__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.punkdeal__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.punkdeal__navbar-links_logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.punkdeal__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.punkdeal__navbar-sign {
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.punkdeal__navbar-links_container p,
+.punkdeal__navbar-sign p,
+.punkdeal__navbar-menu_container p {
+    color:#95f0e1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25 px;
+    text-transform: capitalize;
+    margin: 0 2rem;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.punkdeal__navbar-sign button,
+.punkdeal__navbar-menu_container button {
+    padding: 0.4rem 0.7rem;
+    color: #000;
+    background: #95f0e1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    outline: none;
+    justify-content: end;
+
+    border-radius: 7px;
+}
+
+.punkdeal__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.punnkdeal__navbar-menu svg {
+    cursor: pointer;
+}
+
+.punkdeal__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background:#000000;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgb(0, 0, 5);
+}
+
+.punkdeal__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.punkdeal__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .punkdeal__navbar-links_container {
+        display: none;
+    }
+
+    .punkdeal__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .punkdeal__navbar-links_container {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .punkdeal__navbar-links_container {
+        padding: 2rem;
+    }
+
+    .punkdeal__navbar-sign {
+        display: none;
+        align-items: flex-end;
+    }
+
+    .punkdeal__navbar-menu_container {
+        top: 20px;
+        align-items: flex-end;
+    }
+
+    .punkdeal__navbar-menu_container-links-sign {
+        display: block;
+        align-items: flex-end;
+    }
+}
