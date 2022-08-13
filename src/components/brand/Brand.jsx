@@ -5,7 +5,7 @@ import { google, slack, metamask, coinbasee } from './imports';
 
 const Brand = () => {
   return (
-    <div className="punkdeal__brand section__padding">
+    <div className="punkdeal__brand section__padding" id="features">
       <div>
         <img src={google} alt="google" />
       </div>

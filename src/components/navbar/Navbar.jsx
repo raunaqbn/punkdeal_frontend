@@ -44,8 +44,8 @@ const Navbar = () => {
           <div className="punkdeal__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
             <p><a href="#whatPP">What is Punkdeal?</a></p>
-            <p><a href="#possibility">Our Services</a></p>
             <p><a href="#features">Partners</a></p>
+            <p><a href="#services">Our Services</a></p>
             <p><a href="#blog">Connect Wallet</a></p>
             <div className="punkdeal__navbar-menu_container-links-sign">
               <p>Login</p>

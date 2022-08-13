@@ -4,37 +4,41 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+
     margin: 1rem;
 }
 
 .punkdeal__features-container__feature-title {
     flex: 1;
-    max-width: 180px;
+    max-width: 300px;
     margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .punkdeal__features-container__feature-title h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    margin-right: 1rem;
     line-height: 24px;
-    color: black;
+    letter-spacing: -0.04em;
+    color: #a1e207 ;
 }
 
 .punkdeal__features-container__feature-title div {
     width: 38px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 3px;
-    color: var(--gradient-bar);
-    box-shadow: 0 4px 4px rgba(rgb(0, 0, 10), 0, 0, 0);
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
 }
 
 .punkdeal__features-container__feature-text {
-    flex: 2;
-    max-width: 390px;
+    flex: 1;
+    max-width: 1400px;
     display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .punkdeal__features-container__feature-text p {
@@ -42,7 +46,22 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: var(--color-text);
+    margin-right: 1.5rem;
+    color: #79d9f7;
 }
 
+@media screen and (max-width: 550px) {
+    .punkdeal__features-container__feature-title h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
 
+    .punkdeal__features-container_feature-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .punkdeal__features-container__feature {
+        margin: 1rem 0;
+    }
+}
