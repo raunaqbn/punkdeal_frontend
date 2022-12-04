@@ -1,6 +1,6 @@
 import React from "react";
 import "./feature.css";
-import "/Users/biswajeetnaidu/Internship/practicepage/src/index.css";
+import "../../../src/index.css";
 
 const Feature = ({ title, text }) => {
   return (

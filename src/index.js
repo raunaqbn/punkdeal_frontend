@@ -6,4 +6,8 @@ import './fonts/Dirtchunk.otf';
 import App from "./App";
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import { BrowserRouter } from "react-router-dom";
+const root = ReactDOM.createRoot(document.getElementById("root"))
+ReactDOM.render(
+<div>dfgdf </div>
+);
