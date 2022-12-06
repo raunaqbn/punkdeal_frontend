@@ -8,7 +8,7 @@ import { Header2 , Footer} from '../../containers';
 
 
 
-const Login=()=>{
+const SignUp=()=>{
 
     const paperStyle={padding :20,height:'50vh',width:'30vw', margin:"20px auto"}
     const avatarStyle={backgroundColor:'#1bbd7e'}
@@ -20,12 +20,12 @@ const Login=()=>{
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
                      <Avatar style={avatarStyle}><LockIcon/></Avatar>
-                    <h2>Sign In</h2>
+                    <h2>Sign Up</h2>
                 </Grid>
                 <Grid>
                 <TextField style={formstyle} label='Username' placeholder='Enter username' fullWidth required/>
                 <TextField style={formstyle}label='Password' placeholder='Enter password' type='password' fullWidth required/>
-                <Button type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign in</Button>
+                <Button type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign Up</Button>
                 </Grid>
 
                 <Typography >
@@ -44,4 +44,4 @@ const Login=()=>{
     )
 }
 
-export default Login;
+export default SignUp;
