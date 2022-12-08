@@ -8,7 +8,7 @@ import { Header2 , Footer} from '../../containers';
 
 
 
-const SignUp=()=>{
+const SignUp =()=> {
 
     const paperStyle={padding :20,height:'50vh',width:'30vw', margin:"20px auto"}
     const avatarStyle={backgroundColor:'#1bbd7e'}

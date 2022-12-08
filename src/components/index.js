@@ -31,3 +31,15 @@ export {
     default as SignUp
 }
     from './signup/SignUp';
+export {
+    default as Deals
+}
+    from './deals/Deals';
+export {
+    default as Profile
+}
+    from './profile/Profile';
+export {
+    default as DealCard
+}
+    from './deals/DealCard';
