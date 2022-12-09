@@ -38,7 +38,7 @@ const Deals=() => {
     const [gridItems, setGridItems] = React.useState([]);
     const testUser = {
         user_id: 1,
-        name: "raunaq",
+        name: "Punkdeal User",
         email: "raunaq.naidu@gmail.com"
     }
     React.useEffect(() => {
@@ -66,7 +66,7 @@ const Deals=() => {
         </div>
         <Box sx={{ flexGrow: 1 }} mt ={"50px"} ml={"50px"} mr={"50px"} >
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                {gridItems.map(item => (
+                {tempDealsList.map(item => (
                 <Grid xs={2} sm={4} key={item.id} >
                     <DealCard description = {item.description}/>
                 </Grid>
